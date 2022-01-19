@@ -6,7 +6,7 @@ import {
   FETCH_USERS_FAILURE,
 } from '../const/users'
 
-const octokit = new Octokit({ auth: `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` });
+const octokit = new Octokit({ auth: `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` });
 
 function fetchUsersStart() {
   return { 
