@@ -35,7 +35,6 @@ function User({dofetchUser, user}) {
 
 const mapStateToProps = () => {
   return (state => {
-    console.log(9, state)
     return {
     fetching: state.fetching,
     user: state.user
